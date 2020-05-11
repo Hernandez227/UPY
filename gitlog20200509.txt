@@ -1,0 +1,56 @@
+    1  nano edwin2.c
+    2  gcc edwin2.c
+    3  pkg install clang
+    4  ./a.out ejercicio3.c
+    5  ./a.out 7 4 5
+    6  nano ejercicio3.c
+    7  gcc ejercicio3.c
+    8  ./a.out 4 5 6
+    9  ./a.out 
+   10  ./a.out 3 4 5
+   11  nano ejercicio3.c
+   12  nano ejercicio3.c
+   13  ./a.out 7.80 5 6
+   14  gcc ejercicio3.c
+   15  git init
+   16  git add README test.rb LICENSE
+   17  git add README.txt
+   18  nano README.TXT
+   19  git add README.TXT
+   20  git add README.TXT test.rb LICENSE
+   21  git add README.TXT
+   22  git commit -m 'initial commit of my project'
+   23  git branch testing
+   24  git log --oneline --decorate
+   25  git checkout testing 
+   26  git log --oneline --decorate
+   27  vim test.rb
+   28  nano erick.txt
+   29  git commit -a -m 'made a change'
+   30  git add erick.txt
+   31  git commit -a -m 'made a change'
+   32  git checkout master
+   33  git push
+   34  nano progit.txt
+   35  git commit -a -m 'made other changes'
+   36  git add progit.txt
+   37  git commit -a -m 'made other changes'
+   38  git log --oneline --decorate --graph --all
+   39  git checkout -b testing
+   40  git checkout -b iss53
+   41  nano eri.txt
+   42  git add eri.txt
+   43  git commit -a -m 'added a nee footer [eri.txt]'
+   44  git checkout master
+   45  git checkour -b hotfix
+   46  git checkout -b hotfix
+   47  nano hotfix.txt
+   48  git add hotfix.txt
+   49  git commit -a -m 'fixed the broken email addres'
+   50  git checkout master
+   51  git emerge hotfix
+   52  git merge hotfix
+   53  git branch -d hotfix
+   54  git checkout master
+   55  git merge iss53
+   56  history | tail -n 200 > gitlog20200509.txt
